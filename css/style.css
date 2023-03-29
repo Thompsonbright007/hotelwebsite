@@ -9,6 +9,7 @@ html,body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
     max-width: 100%;
+    max-height: 100%;
 }
 
 a {
@@ -330,7 +331,7 @@ p {
     border: 1px #ddd solid;
 }
 
-#contact-form textarea{
+#contact-form textarea {
     height: 200px;
 }
 
@@ -342,6 +343,83 @@ p {
 
 
 
+/* reservation */
+#banner {
+background: url(../img/hotel-reservation.png) no-repeat center center/cover;
+height: 150px;
+margin-bottom: 1rem;
+}
+
+.form-container {
+    display: block;
+    height: 750px;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+.form-wrap {
+    padding: 40px;
+    width: 50%;
+    height: 700px;
+    margin: auto;
+    line-height: 30px;
+    border:2px solid #333;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px;
+}
+
+.form-wrap h1, p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.form-wrap h1 {
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+
+.form-wrap p {
+    font-size: large;
+}
+
+.form-wrap .form-group label {
+    display: inline-block;
+    color: black;
+    font-size: larger;
+    margin: 20px;
+    text-align: right;
+}
+
+.form-container .form-wrap .form-group input, select {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.form-container .form-group textarea{
+    width: 300px;
+    vertical-align: top;
+}
+
+.btn-form {
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: rgba(7, 38, 50, 0.544);
+    color: rgb(219, 231, 227);
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: 1.5px light;
+}
+
+.btn-form:hover {
+    color: whitesmoke;
+    background-color: rgba(15, 51, 66, 0.544);
+}
+
+
 /* footer */
 #main-footer p{
     text-align: center;
@@ -349,6 +427,3 @@ p {
     color: #fff;
     padding: 20px;
 }
-
-
-
