@@ -66,7 +66,7 @@ p {
 
 .btn:hover {
     background: #a63939;
-    color: #d3d348;
+    color: #afaf59;
 }
 
 .btn-light:hover {
@@ -98,7 +98,7 @@ p {
     color: white;
 }
 
-#navbar h1 {
+#navbar .logo {
     float:left;
     padding-top: 20px;
 }
@@ -116,10 +116,6 @@ p {
     display: block;
     padding: 20px;
     text-align: center;
-}
-
-#navbar .logo a{
-    padding-left: 30px;
 }
 
 #navbar ul li a:hover{
@@ -142,7 +138,6 @@ p {
     color: white;
     text-align: center;
     padding: 170px;
-
 }
 
 #showcase .showcase-content h1 {
@@ -182,7 +177,7 @@ p {
 } */
 
 #home-info {
-    height: 400px;
+    height: 450px;
 }
 
 #home-info .info-img .img{
@@ -239,6 +234,7 @@ p {
     margin-bottom: 15px;
 }
 
+
 /* about info */
 
 #about-info .container-about {
@@ -280,7 +276,7 @@ p {
 
 /* testimonial */
 #testimonials {
-    height: 800px;
+    height: 100%;
     background: url('../img/lounge1.jpg') no-repeat center center/cover;
     padding-top: 100px;
 }
@@ -292,7 +288,7 @@ p {
     width: 70%;
     margin: auto;
     margin-bottom: 40px;
-    opacity: 0.95;
+    background-color: #f7c18abe;
 }
 
 #testimonials .testimonial img{
@@ -351,27 +347,26 @@ margin-bottom: 1rem;
 }
 
 .form-container {
-    display: block;
-    height: 750px;
+    /* display: block; */
     margin: auto;
     background-color: aliceblue;
+    padding: 20px;
 }
 
 .form-wrap {
-    padding: 40px;
+    padding: 30px;
     width: 50%;
-    height: 700px;
+    height: 800px;
     margin: auto;
-    line-height: 30px;
-    border:2px solid #333;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px;
+    line-height: 20px;
+    border: 1px solid #838383;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px #a8a3a3;
 }
 
 .form-wrap h1, p {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    margin-top: 5px;
 }
 
 .form-wrap h1 {
@@ -383,23 +378,11 @@ margin-bottom: 1rem;
     font-size: large;
 }
 
-.form-wrap .form-group label {
-    display: inline-block;
-    color: black;
-    font-size: larger;
-    margin: 20px;
-    text-align: right;
-}
 
 .form-container .form-wrap .form-group input, select {
-    margin: 10px;
-    padding: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
     border-radius: 10px;
-}
-
-.form-container .form-group textarea{
-    width: 300px;
-    vertical-align: top;
 }
 
 .btn-form {
@@ -418,6 +401,30 @@ margin-bottom: 1rem;
     color: whitesmoke;
     background-color: rgba(15, 51, 66, 0.544);
 }
+
+.form-container .form-wrap .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container .form-wrap .form-group input, select{
+    width: 100%;
+    padding: 8px;
+    border: 1px #f5eded solid;
+}
+
+input:focus{
+    background-color: whitesmoke;
+}
+
+.form-container .form-wrap .form-group textarea{
+    width: 100%;
+    /* padding: 10px; */
+    border: 1px #ddd solid;
+    height: 100px;
+    border-radius: 10px;
+}
+
 
 
 /* footer */

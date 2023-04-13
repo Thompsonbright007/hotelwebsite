@@ -1,0 +1,151 @@
+#navbar .logo {
+    float: none;
+    text-align: center;
+    padding-left: none;
+}
+
+#navbar ul, #navbar ul li {
+    float:none;
+    text-align: center;
+}
+
+#navbar ul li a {
+    padding: 5px;
+    border-bottom: #444 dotted 1px;
+}
+
+#navbar ul li a.current {
+    border-bottom:#444 dotted 1px;
+}
+
+
+/* home info */
+#home-info .info-img {
+display: none;
+}
+
+#home-info .info-content {
+    float: none;
+    width: 100%;
+}
+
+/* boxes */
+#features .box {
+    float: none;
+    width: 100%;
+}
+
+/* about */
+
+#about-info .info-right{
+    float: none;
+    width: 100%;
+    padding: none;
+}
+
+#about-info .info-left{
+    float: none;
+    width: 100%;
+}
+
+.vertical{
+    display: none;
+}
+
+.container-about{
+    width: 100%;
+    text-align: center;
+}
+
+#about-info .info-right img{
+    display: block;
+    float: right;
+    width: 100%;
+    margin: auto;
+    min-height: 100%;
+    border-radius: 50%;    
+}
+
+#testimonials {
+    width: 100%;
+}
+
+#about-info .l-heading span{
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+#testimonials h1{
+    font-size: medium;
+}
+
+#testimonials h2{
+    text-align: center;
+  font-size: medium;
+}
+
+#testimonials .testimonial{
+    padding: 20px;
+    height: 100%;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #f7c18abe;
+    
+}
+
+#testimonials p{
+    font-size: small;
+    color: black;
+}
+
+
+/* contact */
+#features .box {
+    border-bottom:#faf0f0 solid 0.5px;
+}
+#features #mobile{
+    margin-bottom: 0px;
+    border-bottom: #faf0f0 solid 0.5px;
+    background-color: #444;
+}
+
+#contact-form .container .l-heading{
+    text-align: center;
+}
+
+#features #mobile h3, #features #mobile p{
+   color: white;
+}
+
+#contact-form .container button{
+    display: block;
+    margin: auto;
+}
+
+/* showcase */
+#showcase {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+#showcase .showcase-content{
+    padding: 0px;
+    width: 400px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* reservation */
+.form-wrap{
+    width: 80%;
+}
+
+.form-wrap h1{
+    font-size: x-large;
+    padding-bottom: 5px;
+}
